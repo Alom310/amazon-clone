@@ -31,3 +31,9 @@
 .checkoutProduct__price {
     padding: 1px;
 }
+
+@media only screen and (max-width: 500px){
+    .checkoutProduct{
+        flex-direction: column;
+    }
+}
